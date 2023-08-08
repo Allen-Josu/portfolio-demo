@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <nav class="navbar">
+        <img
+          class="logo"
+          src="./images/a-business-woman-who-explains-drawings_csp12051090.jpg"
+          alt="business woman"
+        />
+        <!-- LIST -->
+        <ul>
+          <li class="listitems"><a class="links" href="#home">HOME</a></li>
+          <li class="listitems"><a class="links" href="#about">ABOUT</a></li>
+          <li class="listitems"><a class="links" href="#skills">SKILL</a></li>
+          <li class="listitems">
+            <a class="links" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- HOME -->
+      <section id="home">
+        <!-- CONTENT -->
+        <div class="title">
+          <h1 class="title__h1">I'm Ana <span id="lastname">Steel</span></h1>
+          <p class="title__p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+            Aperiam fugiat perferendis debitis repellendus fuga quo!
+          </p>
+          <a
+            class="download"
+            href="https://drive.google.com/file/d/1HJmkJVmPMh1SFrE1eibGsQAzV-Wquv39/view?usp=sharing"
+            target="_blank"
+            download
+            >Download CV</a
+          >
+        </div>
+
+        <!-- IMAGE -->
+        <div class="images">
+          <img id="shape" src="./images/shape.png" alt="shape" />
+          <img id="girl" src="./images/girl.png" alt="girl" />
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="heading">
+          <h2>About Me</h2>
+          <span>Introduction</span>
+        </div>
+        <div class="about__content">
+          <!-- About Images -->
+          <div class="about__images">
+            <img src="./images/about.avif" alt="images" />
+          </div>
+          <!-- Content -->
+          <div class="about__details">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              a repellendus quas, eligendi minima culpa natus cumque optio
+              soluta nulla sed incidunt reprehenderit doloremque dolores vero
+              nihil nisi quasi ratione? Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Earum eos reprehenderit vero laudantium quas
+              atque accusantium quaerat porro ducimus eaque, fuga reiciendis
+              impedit iusto nisi qui, cumque illum natus vel.
+            </p>
+            <div class="about__informations">
+              <div class="about__info-box">
+                <i class="fa-solid fa-user"></i>
+                <span>Anna Steel</span>
+              </div>
+
+              <div class="about__info-box">
+                <i class="fa-solid fa-phone"></i>
+                <span>+91 85471 7137</span>
+              </div>
+
+              <div class="about__info-box">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Annasteel@gmail.com</span>
+              </div>
+
+              <div class="about__info-box">
+                <i class="fa-brands fa-github"></i>
+                <span>AnnaSteel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section id="skills">
+        <!-- Heading -->
+        <div class="heading">
+          <h2>Skills</h2>
+          <span>My Skills</span>
+        </div>
+        <!-- Content -->
+        <div class="skills-container">
+          <!-- Progress -->
+          <div class="skills__progress">
+            <div class="skills__bar">
+              <h3>HTML</h3>
+              <span>95%</span>
+              <div class="base-bar"></div>
+              <div class="base-bar html-bar"></div>
+            </div>
+
+            <div class="skills__bar">
+              <h3>CSS</h3>
+              <span>88%</span>
+              <div class="base-bar"></div>
+              <div class="base-bar css-bar"></div>
+            </div>
+
+            <div class="skills__bar">
+              <h3>JS</h3>
+              <span>89%</span>
+              <div class="base-bar"></div>
+              <div class="base-bar js-bar"></div>
+            </div>
+
+            <div class="skills__bar">
+              <h3>REACT</h3>
+              <span>85%</span>
+              <div class="base-bar"></div>
+              <div class="base-bar react-bar"></div>
+            </div>
+          </div>
+
+          <!-- Images -->
+          <div class="skills-image">
+            <img src="./images/skills.webp" alt="skills" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <!-- Heading -->
+        <div class="heading">
+          <h2>Contacts</h2>
+          <span>My Contacts</span>
+        </div>
+        <!-- Links -->
+        <div class="link">
+          <a href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+          <a href=""> <i class="fa-brands fa-github fa-2xl"></i></a>
+          <a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+          <a href=""><i class="fa-brands fa-facebook fa-2xl"></i></a>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram fa-2xl"></i
+          ></a>
+        </div>
+      </section>
+      <footer>
+        <!-- FOOTER -->
+        <p>&copy;My Portfolio Designs 2023. All Rights Reserved.</p>
+        <div class="up-arrow">
+          <a href="#container"><i class="fa-solid fa-arrow-up fa-2x"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
